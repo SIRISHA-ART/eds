@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 19 Nov 2025 11:32:38 at https://social.jynarque.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://social.jynarque.com/ -O1 "C:\Users\BJ569LU\Downloads\Sites\social.jynarquesite" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:33:11	Error: 	"Not Found" (404) at link https://social.jynarque.com/sites/g/files/qhldwo12071/files/js/optimized/js_Hpe5jrMuKXrV4HSTMApXJsNBxraAgcHUrTjxkwWKqy8.217Px91I5PBzYfV2Ts1WpAd6JP3-gmVHqk0eIz0l6V4.js?v=10.5.0 (from https://social.jynarque.com/)
+11:33:11	Error: 	"Not Found" (404) at link https://social.jynarque.com/sites/g/files/qhldwo12071/files/js/optimized/js_w0iO3No0CsyHgJmryEbhwpkh5zx6m6dhvawBt4ufwyA.gG5Rz7OS48DK4TGq7wiZ1HjRM6wBiUnH_BVyJHQT9N0.js?v=1.0.1 (from https://social.jynarque.com/)
+11:33:11	Error: 	"Not Found" (404) at link https://social.jynarque.com/sites/g/files/qhldwo12071/files/js/optimized/js_V1oRQ-kJlXBZaEklOtPUe_1t8-l0RS94HJ3gsqxKikc.bduIzByrd3FO8cBVCEi-E7KJ5dTe_5T4NdlX56iTDSI.js?v=10.5.0 (from https://social.jynarque.com/)
+11:33:11	Error: 	"Not Found" (404) at link https://social.jynarque.com/sites/g/files/qhldwo12071/files/js/optimized/js_KRjtvzl6UujB23-j_sF6dqOcbqg2z8ej98A8RU9bGsg.5R30s5HIvDAblgNA2zdg7eK8JolHsiDB4A5BYBdx4Ws.js?v=10.5.0 (from https://social.jynarque.com/)
+11:33:11	Error: 	"Not Found" (404) at link https://social.jynarque.com/sites/g/files/qhldwo12071/files/js/optimized/js_mjv4qhOv2_1-EQeYpZwvWqHcMokP3Cu36uHh9tRNXFY.PJR8hZ85ozo2MfHn6GZCmLFzDgfJa1R3Hz4yVX856F4.js?v=10.5.0 (from https://social.jynarque.com/)
+11:33:11	Error: 	"Not Found" (404) at link https://social.jynarque.com/sites/g/files/qhldwo12071/files/js/optimized/js_RpLV1j1SEgkAOBNxIxvzKXRlefOlhPa03lpGt46bJEg.1f_I0ngNiGTxMn9d59KuM614Eo9evoYYC2iW5Um_seY.js?v=10.5.0 (from https://social.jynarque.com/)
+11:33:11	Error: 	"Not Found" (404) at link https://social.jynarque.com/sites/g/files/qhldwo12071/files/js/optimized/js_URinkqADtqqqo2C1py6wc2xoL14YKyW-AchTQspd3K4.cJrZayueRRLuhTV0Ziy4qDtuc8bRjnLtZs7QDdKOBMQ.js?v=10.5.0 (from https://social.jynarque.com/)
+11:33:11	Error: 	"Not Found" (404) at link https://social.jynarque.com/sites/g/files/qhldwo12071/files/js/optimized/js_uWBW_416M4i6ruhbDjjoRa2inA5p-q-yWiBkZec7viw.jWgm303O-N7q8RRBu0874NcyeAuWf_5MAoUIo0d6CuA.js?v=10.5.0 (from https://social.jynarque.com/)
+11:33:11	Error: 	"Not Found" (404) at link https://social.jynarque.com/t (from assets.adobedtm.com/3f0d2e2dbd42/313fd7baa8af/launch-bacdce8b01b7.min.js)
+11:33:14	Error: 	"Not Found" (404) at link assets.adobedtm.com/signals/iwl.js (from https://connect.facebook.net/en_US/fbevents.js)
+11:33:14	Error: 	"Not Found" (404) at link assets.adobedtm.com/signals/iwl.js?pixel_id= (from https://connect.facebook.net/en_US/fbevents.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 36 seconds : 62 links scanned, 50 files written (1948505 bytes overall) [1250682 bytes received at 34741 bytes/sec], 1565616 bytes transferred using HTTP compression in 53 files, ratio 52%, 7.7 requests per connection
+(11 errors, 0 warnings, 0 messages)
