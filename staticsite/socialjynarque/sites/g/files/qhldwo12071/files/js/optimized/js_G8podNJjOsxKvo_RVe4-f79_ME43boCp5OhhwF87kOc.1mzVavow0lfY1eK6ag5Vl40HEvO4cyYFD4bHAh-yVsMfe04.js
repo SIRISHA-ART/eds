@@ -1,4 +1,4 @@
-P/* Source and licensing information for the line(s) below can be found at https://social.jynarque.com/core/misc/message.js. */
+/* Source and licensing information for the line(s) below can be found at https://social.jynarque.com/core/misc/message.js. */
 /**
  * @file
  * Message API.
