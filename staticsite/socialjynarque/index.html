@@ -105,7 +105,7 @@
   function oneTrustSettingsOtherFix() {
     const modelElement = document.getElementById('onetrust-pc-sdk');
     document.addEventListener('focus', function (e) {
-      const focusableElements = modelElement.querySelectorAll('a[href], area[href], input:!([disabled]), select:!([disabled]), textarea:!([disabled]), button:!([disabled]), iframe, object, embed, *[tabindex], *[contenteditable]');
+      const focusableElements = modelElement.querySelectorAll('a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, *[tabindex], *[contenteditable]');
       if (!Array.from(focusableElements).includes(e.target)) {
         Array.from(focusableElements)[0].focus();
       }
