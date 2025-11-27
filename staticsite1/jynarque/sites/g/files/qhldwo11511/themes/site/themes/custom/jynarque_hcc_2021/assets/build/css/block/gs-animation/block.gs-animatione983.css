@@ -1,0 +1,481 @@
+body .gs-animation-paragraph {
+  margin: 30px 15px 0;
+  border-bottom: 2px solid #103B71;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  body .gs-animation-paragraph {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+body .gs-animation-paragraph#paragraph-5651 h2 {
+  margin-bottom: 20px;
+  font-family: "LatoLatinWebBlack", sans-serif;
+  font-size: 26px;
+}
+
+body .gs-animation-paragraph button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 700;
+  color: #ffc52e;
+  padding: 18px 30px;
+  background: #103b71;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.2s;
+  max-width: 276px;
+  border-radius: 33px;
+  border: none;
+  cursor: pointer;
+  line-height: 1.23;
+}
+
+body .gs-animation-paragraph button:hover {
+  color: #ffc52e;
+  text-decoration: none;
+  background-color: #164f96;
+}
+
+body .gs-animation-paragraph button:active {
+  color: #ffc52e;
+  text-decoration: none;
+  background-color: #0b2b53;
+}
+
+@media (min-width: 960px) {
+  body .gs-animation-paragraph button {
+    font-size: 18px;
+    line-height: 1.22;
+    padding: 14px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  body .gs-animation-paragraph button {
+    max-width: initial;
+    line-height: 1;
+  }
+}
+
+.gs-animation-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.gs-animation-wrapper {
+  margin: 30px 0 15px;
+}
+
+@media (min-width: 960px) {
+  .gs-animation-wrapper {
+    display: flex;
+  }
+}
+
+.gs-animation-wrapper__animation {
+  margin-bottom: 25px;
+}
+
+@media (min-width: 960px) {
+  .gs-animation-wrapper__animation {
+    max-width: 60%;
+    margin-bottom: 60px;
+    position: relative;
+    left: -20px;
+  }
+}
+
+.gs-animation-wrapper__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+@media (min-width: 960px) {
+  .gs-animation-wrapper__text {
+    max-width: 360px;
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.des-container .disease-education-slider {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.des-top-arrow-dot {
+  position: relative;
+  top: 184px;
+  width: 10px;
+  height: 10px;
+}
+
+.des-bottom-arrow-dot {
+  position: relative;
+  top: 221px;
+  width: 10px;
+  height: 10px;
+}
+
+.disease-education-slider .scene-wrapper {
+  position: relative;
+  width: 810px;
+  max-width: 100%;
+  height: 450px;
+  background: transparent;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: opacity 1s;
+}
+
+.disease-education-slider .scene {
+  position: relative;
+  width: 100%;
+  min-width: 810px;
+  height: 100%;
+}
+
+.disease-education-slider .des-pic {
+  position: absolute;
+  bottom: 140px;
+  opacity: 0;
+}
+
+.disease-education-slider .des-pic[id^=desPic1_] {
+  left: 49px;
+  width: 173px;
+  height: 180px;
+  bottom: 87px;
+}
+
+.disease-education-slider .des-pic[id^=desPic2_] {
+  left: 218px;
+  width: 199px;
+  height: 234px;
+  bottom: 74px;
+}
+
+.disease-education-slider .des-pic[id^=desPic3_] {
+  left: 394px;
+  width: 237px;
+  height: 249px;
+  bottom: 94px;
+}
+
+.disease-education-slider .des-pic[id^=desPic4_] {
+  left: 565px;
+  width: 285px;
+  height: 320px;
+  bottom: 45px;
+}
+
+.disease-education-slider .des-pic img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.disease-education-slider .des-line-wrapper .des-line {
+  overflow: inherit;
+}
+
+.disease-education-slider .des-line-wrapper .des-line .des-line--template,
+.disease-education-slider .des-line-wrapper .des-line .des-line--arrow {
+  visibility: hidden;
+}
+
+.disease-education-slider .des-line-wrapper .des-line .des-line--path {
+  visibility: hidden;
+}
+
+.disease-education-slider .des-line-wrapper[id^=desLineWrapper1_] {
+  position: absolute;
+  bottom: 61px;
+  left: 20px;
+}
+
+.disease-education-slider .des-line-wrapper[id^=desLineWrapper2_] {
+  position: absolute;
+  bottom: 204px;
+  left: 20px;
+}
+
+.disease-education-slider .des-text-under-line {
+  font-size: 16px;
+  position: absolute;
+  left: 25px;
+}
+
+@media (max-width: 767.98px) {
+  .disease-education-slider .des-text-under-line {
+    font-size: 18px;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .disease-education-slider .des-text-under-line {
+    font-size: 20px;
+  }
+}
+
+.disease-education-slider .des-text-under-line.des-text-under-line-first {
+  bottom: 387px;
+}
+
+.disease-education-slider .des-text-under-line.des-text-under-line-second {
+  bottom: 265px;
+  font-size: 11px;
+}
+
+.disease-education-slider .timeline-wrapper {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.disease-education-slider .timeline-wrapper #timeRange {
+  opacity: 0;
+  width: 100%;
+}
+
+.disease-education-slider .timeline-text {
+  color: #103B71;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  text-align: center;
+  z-index: 1;
+}
+
+@media (max-width: 767.98px) {
+  .disease-education-slider .timeline-text {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .disease-education-slider .timeline-text {
+    font-size: 8px;
+  }
+}
+
+.disease-education-slider sup, .disease-education-slider sub {
+  font-size: 12px;
+}
+
+.des-bottom-text {
+  color: #565A5C;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  font-size: 14px;
+  margin: 7px 20px 0;
+}
+
+@media (min-width: 768px) {
+  .des-bottom-text {
+    font-size: 18px;
+    margin: 0 35px;
+  }
+}
+
+.custom--gs-description {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .custom--gs-description {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .custom--gs-description {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    line-height: 1.92;
+  }
+}
+
+.custom--gs-description p {
+  margin-bottom: 0;
+}
+
+@keyframes rangeslider-pulsation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.rangeslider__handle {
+  animation-name: rangeslider-pulsation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+input[type="range"]:focus + .rangeslider .rangeslider__handle {
+  animation: none;
+}
+
+input[type="range"].pulsation-disabled + .rangeslider .rangeslider__handle {
+  animation: none;
+}
+
+.modal-dialog {
+  margin: 0 15px;
+  position: relative;
+  max-width: 1000px;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.modal-content {
+  border-radius: 0;
+  border: 0 none;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.modal .close {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  width: 30px;
+  height: 25px;
+  background: url(../../../img/close.svg) no-repeat center center transparent;
+  background-size: contain;
+  border-radius: 50%;
+  opacity: 1;
+  z-index: 1;
+  padding: 0;
+}
+
+.modal .close:hover {
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .modal .close {
+    top: 10px;
+    right: 15px;
+    width: 40px;
+    height: 32px;
+  }
+}
+
+.modal-backdrop.show {
+  opacity: 1;
+  background: rgba(135, 156, 183, 0.8);
+}
+
+body .predict-progression .modal-dialog .modal-body {
+  display: flex;
+  padding: 60px 30px 30px 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+@media (min-width: 768px) {
+  body .predict-progression .modal-dialog .modal-body {
+    padding: 30px 60px;
+  }
+}
+
+body .predict-progression .modal-dialog .modal-body h2 {
+  color: #103B71;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 35px;
+  margin-bottom: 0;
+}
+
+body .predict-progression .modal-dialog .modal-body p {
+  color: #3C3C3C;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+body .predict-progression .modal-dialog .modal-body img {
+  width: 100%;
+  max-width: 270px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  body .predict-progression .modal-dialog .modal-body img {
+    max-width: initial;
+  }
+}
+
+body .predict-progression__patients {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 45px;
+  align-self: stretch;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  body .predict-progression__patients {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  body .predict-progression__patients img {
+    width: 33.333% !important;
+  }
+}
+
+/*# sourceMappingURL=block.gs-animation.css.map */

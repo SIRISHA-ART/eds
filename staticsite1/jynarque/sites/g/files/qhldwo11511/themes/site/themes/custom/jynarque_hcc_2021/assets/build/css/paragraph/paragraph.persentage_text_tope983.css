@@ -1,0 +1,280 @@
+.percentage_text_top {
+  position: relative;
+  overflow: hidden;
+  color: #062e5d;
+}
+
+@media (min-width: 768px) {
+  .percentage_text_top {
+    box-shadow: inset 0 0 0 3px #4dc4bc;
+    background: #EBFBFA;
+  }
+}
+
+@media (min-width: 768px) {
+  .percentage_text_top:after {
+    content: '';
+    position: absolute;
+    top: -55px;
+    right: -52px;
+    bottom: 0;
+    height: 140%;
+    width: 155px;
+    background: #4dc4bc;
+    transform: rotate(-21.2deg);
+    z-index: 3;
+  }
+}
+
+.percentage_text_top__top_section {
+  border: 3px solid #4dc4bc;
+  padding: 17px 1px 15px 16px;
+}
+
+@media (min-width: 768px) {
+  .percentage_text_top__top_section {
+    padding: 0;
+  }
+}
+
+.percentage_text_top__bottom_section {
+  border: 3px solid #4dc4bc;
+  margin-top: 10px;
+  padding: 17px 1px 15px 16px;
+}
+
+@media (min-width: 768px) {
+  .percentage_text_top__bottom_section {
+    padding: 28px 0 12px;
+  }
+}
+
+.percentage_text_top__top_section, .percentage_text_top__bottom_section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #EBFBFA;
+}
+
+@media (min-width: 768px) {
+  .percentage_text_top__top_section, .percentage_text_top__bottom_section {
+    padding: 30px 190px 10px 48px;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .percentage_text_top__top_section--content, .percentage_text_top__bottom_section--content {
+    width: calc(100% - 115px);
+    padding-left: 14px;
+    line-height: 1.25;
+  }
+}
+
+@media (min-width: 768px) {
+  .percentage_text_top__top_section--content .field--type-text-long p:not(.footnote), .percentage_text_top__bottom_section--content .field--type-text-long p:not(.footnote) {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}
+
+.percentage_text_top__top_section .footnote, .percentage_text_top__bottom_section .footnote {
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 0;
+  line-height: 1.16;
+  color: #565a5c;
+  padding-right: 10px;
+  margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .percentage_text_top__top_section .footnote, .percentage_text_top__bottom_section .footnote {
+    margin-top: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 960px) {
+  .percentage_text_top__top_section .footnote, .percentage_text_top__bottom_section .footnote {
+    font-size: 14px;
+    line-height: 1.12;
+  }
+}
+
+.percentage_text_top .field--name-field-left-percentage,
+.percentage_text_top .field--name-field-right-percentage {
+  text-align: center;
+  font-family: "Code Pro Black", sans-serif;
+  font-size: 60px;
+  padding-bottom: 5px;
+  line-height: .9;
+}
+
+@media (min-width: 768px) {
+  .percentage_text_top .field--name-field-left-percentage,
+  .percentage_text_top .field--name-field-right-percentage {
+    line-height: .8;
+    padding: 0;
+  }
+}
+
+.percentage_text_top .field--name-field-left-percentage sup,
+.percentage_text_top .field--name-field-right-percentage sup {
+  vertical-align: top;
+  font-size: 60%;
+  top: .45em;
+}
+
+@media (min-width: 768px) {
+  .percentage_text_top .field--name-field-left-percentage,
+  .percentage_text_top .field--name-field-right-percentage {
+    padding-right: 17px;
+    padding-top: 11px;
+  }
+
+  .percentage_text_top .field--name-field-left-percentage sup,
+  .percentage_text_top .field--name-field-right-percentage sup {
+    top: .35em;
+  }
+}
+
+@media (min-width: 960px) {
+  .percentage_text_top .field--name-field-left-percentage,
+  .percentage_text_top .field--name-field-right-percentage {
+    font-size: 100px;
+    line-height: .8;
+  }
+}
+
+.percentage_text_top__central-line {
+  left: auto;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .percentage_text_top__central-line {
+    position: absolute;
+    top: -10%;
+    width: 13px;
+    height: 120%;
+    right: 105px;
+    transform: rotate(-21.2deg);
+    border: 3px solid #4dc4bc;
+    background: #ffffff;
+    z-index: 2;
+    display: block;
+  }
+}
+
+.percentage_text_top__horizontal-line {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .percentage_text_top__horizontal-line {
+    position: absolute;
+    left: -3px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 10px;
+    background: #ffffff;
+    display: block;
+    z-index: 2;
+  }
+}
+
+.percentage_text_top__middle_section {
+  position: relative;
+  font-size: 15px;
+  line-height: 1.2;
+  background: #062e5d;
+  color: #ffffff;
+  margin: 8px 14px;
+  padding: 8px;
+  text-align: center;
+  z-index: 3;
+}
+
+@media (min-width: 960px) {
+  .percentage_text_top__middle_section {
+    margin: 12px 52px 9px;
+    font-size: 17px;
+    line-height: 1.22;
+  }
+}
+
+.percentage_text_top__footnote_section {
+  text-align: center;
+  padding: 5px 0 10px;
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 960px) {
+  .percentage_text_top__footnote_section {
+    padding: 10px 8px 13px;
+  }
+}
+
+.percentage_text_top__footnote_section .field {
+  padding-right: 25px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .percentage_text_top__footnote_section .field {
+    padding-right: 15px;
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 960px) {
+  .percentage_text_top__footnote_section .field {
+    padding-left: 0;
+    padding-right: 35px;
+  }
+}
+
+.percentage_text_top__footnote_section .fs-23 {
+  text-align: left;
+  font-size: 23px;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .percentage_text_top__footnote_section .fs-23 {
+    margin-bottom: 6px;
+    text-align: center;
+  }
+}
+
+.percentage_text_top__footnote_section .fs-23 strong {
+  font-weight: 900;
+}
+
+#paragraph-2276.paragraph--type--wrapper {
+  max-width: 1023px;
+  margin: 0 auto;
+}
+
+#paragraph-2276.paragraph--type--wrapper .paragraph--type--wrapper > h2 {
+  font-family: "LatoLatinWebBlack", sans-serif;
+}
+
+#paragraph-2646 h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+@media (min-width: 960px) {
+  #paragraph-2646 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=paragraph.persentage_text_top.css.map */
