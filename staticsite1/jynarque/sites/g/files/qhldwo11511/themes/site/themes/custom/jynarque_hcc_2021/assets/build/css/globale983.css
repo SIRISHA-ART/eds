@@ -435,7 +435,7 @@ a[href*='play.google.com']:active {
 }
 
 a[href*='play.google.com'] {
-  background-image: url(../img/Google-Play%402x.png);
+  background-image: url(https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/img/Google-Play@2x.png);
 }
 
 body {
