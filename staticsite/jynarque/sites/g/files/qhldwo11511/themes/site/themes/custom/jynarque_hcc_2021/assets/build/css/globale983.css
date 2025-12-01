@@ -88,7 +88,7 @@
   font-family: 'LatoLatinWeb';
   src: url("../fonts/lato/LatoLatin-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/lato/LatoLatin-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/LatoLatin-Regular.woff2") format("woff2"), url("../fonts/lato/LatoLatin-Regular.woff") format("woff"), url("../fonts/lato/LatoLatin-Regular.ttf") format("truetype");
+  src: url("../fonts/lato/LatoLatin-Regular.eot?#iefix") format("embedded-opentype"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Regular.woff2") format("woff2"), url("../fonts/lato/LatoLatin-Regular.woff") format("woff"), url("../fonts/lato/LatoLatin-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
