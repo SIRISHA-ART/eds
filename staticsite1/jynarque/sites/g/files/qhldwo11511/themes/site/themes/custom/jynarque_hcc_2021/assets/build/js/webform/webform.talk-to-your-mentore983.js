@@ -40,7 +40,7 @@
       });
       $(once('html', '.start-over-button', context)).on('click', function (event) {
         event.preventDefault();
-        window.location.href = '/sign-up';
+        window.location.href = '/staticsite1/jynarque/sign-up.html';
       });
       $(once('talk_to_your_mentor', '.back-button', context)).on('click', function (event) {
         event.preventDefault();
@@ -48,7 +48,7 @@
         if ($('form').find('[data-drupal-selector="edit-second-step"]').length) {
           $('[id*=edit-actions-wizard-prev]').trigger('click');
         } else {
-          window.location.href = '/sign-up';
+          window.location.href = '/staticsite1/jynarque/sign-up.html';
         }
       });
 
