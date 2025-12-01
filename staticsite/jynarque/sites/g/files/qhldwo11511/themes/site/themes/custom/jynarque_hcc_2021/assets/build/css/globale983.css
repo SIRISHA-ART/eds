@@ -2,33 +2,33 @@
 
 @font-face {
   font-family: 'Code Pro Black';
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/code_pro/font.eot");
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/code_pro/font.eot?#iefix") format("embedded-opentype"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/code_pro/font.woff2") format("woff2"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/code_pro/font.woff") format("woff"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/code_pro/font.ttf") format("truetype");
+  src: url("../fonts/code_pro/font.eot");
+  src: url("../fonts/code_pro/font.eot?#iefix") format("embedded-opentype"), url("../fonts/code_pro/font.woff2") format("woff2"), url("../fonts/code_pro/font.woff") format("woff"), url("../fonts/code_pro/font.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Code Pro Bold LC';
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/code_pro/CodePro-BoldLC.otf") format("opentype");
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/code_pro/CodePro-BoldLC.ttf") format("truetype");
+  src: url("../fonts/code_pro/CodePro-BoldLC.otf") format("opentype");
+  src: url("../fonts/code_pro/CodePro-BoldLC.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Code Pro Black LC';
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/code_pro/CodePro-BlackLC.otf") format("opentype");
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/code_pro/CodePro-BlackLC.ttf") format("truetype");
+  src: url("../fonts/code_pro/CodePro-BlackLC.otf") format("opentype");
+  src: url("../fonts/code_pro/CodePro-BlackLC.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'LatoLatinWebBlack';
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Black.eot");
+  src: url("../fonts/lato/LatoLatin-Black.eot");
   /* IE9 Compat Modes */
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Black.eot?#iefix") format("embedded-opentype"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Black.woff2") format("woff2"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Black.woff") format("woff"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Black.ttf") format("truetype");
+  src: url("../fonts/lato/LatoLatin-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/LatoLatin-Black.woff2") format("woff2"), url("../fonts/lato/LatoLatin-Black.woff") format("woff"), url("../fonts/lato/LatoLatin-Black.ttf") format("truetype");
   font-style: normal;
   font-weight: 900;
   text-rendering: optimizeLegibility;
@@ -36,9 +36,9 @@
 
 @font-face {
   font-family: 'LatoLatinWeb';
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Bold.eot");
+  src: url("../fonts/lato/LatoLatin-Bold.eot");
   /* IE9 Compat Modes */
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Bold.eot?#iefix") format("embedded-opentype"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Bold.woff2") format("woff2"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Bold.woff") format("woff"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Bold.ttf") format("truetype");
+  src: url("../fonts/lato/LatoLatin-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/LatoLatin-Bold.woff2") format("woff2"), url("../fonts/lato/LatoLatin-Bold.woff") format("woff"), url("../fonts/lato/LatoLatin-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -46,9 +46,9 @@
 
 @font-face {
   font-family: 'LatoLatinWeb';
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-BoldItalic.eot");
+  src: url("../fonts/lato/LatoLatin-BoldItalic.eot");
   /* IE9 Compat Modes */
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-BoldItalic.eot?#iefix") format("embedded-opentype"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-BoldItalic.woff2") format("woff2"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-BoldItalic.woff") format("woff"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-BoldItalic.ttf") format("truetype");
+  src: url("../fonts/lato/LatoLatin-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/LatoLatin-BoldItalic.woff2") format("woff2"), url("../fonts/lato/LatoLatin-BoldItalic.woff") format("woff"), url("../fonts/lato/LatoLatin-BoldItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -56,9 +56,9 @@
 
 @font-face {
   font-family: 'LatoLatinWebHeavy';
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Heavy.eot");
+  src: url("../fonts/lato/LatoLatin-Heavy.eot");
   /* IE9 Compat Modes */
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Heavy.eot?#iefix") format("embedded-opentype"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Heavy.woff2") format("woff2"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Heavy.woff") format("woff"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Heavy.ttf") format("truetype");
+  src: url("../fonts/lato/LatoLatin-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/LatoLatin-Heavy.woff2") format("woff2"), url("../fonts/lato/LatoLatin-Heavy.woff") format("woff"), url("../fonts/lato/LatoLatin-Heavy.ttf") format("truetype");
   font-style: normal;
   font-weight: 900;
   text-rendering: optimizeLegibility;
@@ -66,9 +66,9 @@
 
 @font-face {
   font-family: 'LatoLatinWeb';
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Italic.eot");
+  src: url("../fonts/lato/LatoLatin-Italic.eot");
   /* IE9 Compat Modes */
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Italic.eot?#iefix") format("embedded-opentype"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Italic.woff2") format("woff2"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Italic.woff") format("woff"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Italic.ttf") format("truetype");
+  src: url("../fonts/lato/LatoLatin-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/LatoLatin-Italic.woff2") format("woff2"), url("../fonts/lato/LatoLatin-Italic.woff") format("woff"), url("../fonts/lato/LatoLatin-Italic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -76,9 +76,9 @@
 
 @font-face {
   font-family: 'LatoLatinWebMedium';
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Medium.eot");
+  src: url("../fonts/lato/LatoLatin-Medium.eot");
   /* IE9 Compat Modes */
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Medium.eot?#iefix") format("embedded-opentype"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Medium.woff2") format("woff2"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Medium.woff") format("woff"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Medium.ttf") format("truetype");
+  src: url("../fonts/lato/LatoLatin-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/LatoLatin-Medium.woff2") format("woff2"), url("../fonts/lato/LatoLatin-Medium.woff") format("woff"), url("../fonts/lato/LatoLatin-Medium.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
   text-rendering: optimizeLegibility;
@@ -86,9 +86,9 @@
 
 @font-face {
   font-family: 'LatoLatinWeb';
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Regular.eot");
+  src: url("../fonts/lato/LatoLatin-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Regular.eot?#iefix") format("embedded-opentype"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Regular.woff2") format("woff2"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Regular.woff") format("woff"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Regular.ttf") format("truetype");
+  src: url("../fonts/lato/LatoLatin-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/LatoLatin-Regular.woff2") format("woff2"), url("../fonts/lato/LatoLatin-Regular.woff") format("woff"), url("../fonts/lato/LatoLatin-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -96,9 +96,9 @@
 
 @font-face {
   font-family: 'LatoLatinWebSemibold';
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Semibold.eot");
+  src: url("../fonts/lato/LatoLatin-Semibold.eot");
   /* IE9 Compat Modes */
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Semibold.eot?#iefix") format("embedded-opentype"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Semibold.woff2") format("woff2"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Semibold.woff") format("woff"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/lato/LatoLatin-Semibold.ttf") format("truetype");
+  src: url("../fonts/lato/LatoLatin-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/LatoLatin-Semibold.woff2") format("woff2"), url("../fonts/lato/LatoLatin-Semibold.woff") format("woff"), url("../fonts/lato/LatoLatin-Semibold.ttf") format("truetype");
   font-style: normal;
   font-weight: 600;
   text-rendering: optimizeLegibility;
@@ -106,9 +106,9 @@
 
 @font-face {
   font-family: 'FabioHandwriting';
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/fabio_handwriting/FabioHandwriting.eot");
+  src: url("../fonts/fabio_handwriting/FabioHandwriting.eot");
   /* IE9 Compat Modes */
-  src: url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/fabio_handwriting/FabioHandwriting.eot?#iefix") format("embedded-opentype"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/fabio_handwriting/FabioHandwriting.woff2") format("woff2"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/fabio_handwriting/FabioHandwriting.woff") format("woff"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/fabio_handwriting/FabioHandwriting.ttf") format("truetype");
+  src: url("../fonts/fabio_handwriting/FabioHandwriting.eot?#iefix") format("embedded-opentype"), url("../fonts/fabio_handwriting/FabioHandwriting.woff2") format("woff2"), url("../fonts/fabio_handwriting/FabioHandwriting.woff") format("woff"), url("../fonts/fabio_handwriting/FabioHandwriting.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
