@@ -1,0 +1,12 @@
+.classy-fixed-bg {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.classy-fixed-bg .field--name-field-media-image {
+  visibility: hidden;
+}
+
+.paragraph--type--wrapper.classy-full-width {
+  max-width: none;
+}

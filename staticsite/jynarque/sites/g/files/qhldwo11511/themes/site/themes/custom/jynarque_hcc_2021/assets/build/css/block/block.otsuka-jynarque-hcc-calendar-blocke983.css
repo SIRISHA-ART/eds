@@ -1,0 +1,223 @@
+.block-otsuka-jynarque-hcc-calendar-block {
+  margin: 0 auto;
+  background-color: #fffbef;
+}
+
+.block-otsuka-jynarque-hcc-calendar-block#block-otsukajynarquecalendar {
+  background-color: transparent;
+}
+
+.block-otsuka-jynarque-hcc-calendar-block#block-otsukajynarquecalendar .simple-text-options-wrapper {
+  margin-top: 0;
+}
+
+@media (max-width: 959.98px) {
+  .block-otsuka-jynarque-hcc-calendar-block#block-otsukajynarquecalendar .simple-text-options-wrapper {
+    margin-bottom: 18px;
+  }
+}
+
+.block-otsuka-jynarque-hcc-calendar-block #calendar {
+  position: relative;
+  top: -100px;
+}
+
+.block-otsuka-jynarque-hcc-calendar-block .simple-text-option:after {
+  content: '';
+  display: block;
+  width: 100%;
+  background: linear-gradient(to bottom left, transparent 50%, #ffffff 50%);
+  height: 104px;
+  margin-top: 40px;
+}
+
+.block-otsuka-jynarque-hcc-calendar-block .custom--calendar-image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.block-otsuka-jynarque-hcc-calendar-block .sto-content .form-header,
+.block-otsuka-jynarque-hcc-calendar-block .sto-content .form-body {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.block-otsuka-jynarque-hcc-calendar-block .sto-content .form-header h3,
+.block-otsuka-jynarque-hcc-calendar-block .sto-content .form-body h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 960px) {
+  .block-otsuka-jynarque-hcc-calendar-block .sto-content .form-header h3,
+  .block-otsuka-jynarque-hcc-calendar-block .sto-content .form-body h3 {
+    font-size: 22px;
+    line-height: 1.18;
+    margin-bottom: 24px;
+  }
+}
+
+.block-otsuka-jynarque-hcc-calendar-block .sto-content .form-header p,
+.block-otsuka-jynarque-hcc-calendar-block .sto-content .form-body p {
+  margin-bottom: 9px;
+}
+
+@media (min-width: 960px) {
+  .block-otsuka-jynarque-hcc-calendar-block .sto-content .form-header p,
+  .block-otsuka-jynarque-hcc-calendar-block .sto-content .form-body p {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}
+
+@media (min-width: 960px) {
+  .block-otsuka-jynarque-hcc-calendar-block .sto-content .form-header,
+  .block-otsuka-jynarque-hcc-calendar-block .sto-content .form-body {
+    text-align: left;
+  }
+}
+
+@media (min-width: 960px) {
+  .block-otsuka-jynarque-hcc-calendar-block .sto-content .sto-image {
+    position: relative;
+    top: -69px;
+  }
+}
+
+.block-otsuka-jynarque-hcc-calendar-block .field-prefix,
+.block-otsuka-jynarque-hcc-calendar-block label {
+  display: none;
+}
+
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-text {
+  height: auto;
+  max-width: 328px;
+  padding: 11px 22px;
+  margin: 0 auto;
+  border-radius: 40px;
+  border: solid 1px #879cb7;
+  background-color: #ffffff;
+  font-family: "LatoLatinWeb", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  color: #879cb7;
+}
+
+@media (min-width: 960px) {
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-text {
+    max-width: 386px;
+    padding: 14px 30px;
+    margin: 0 0 12px 0;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #cad4e0;
+  }
+}
+
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-body {
+  margin-bottom: 14px;
+}
+
+@media (min-width: 960px) {
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-body {
+    margin-bottom: 32px;
+  }
+}
+
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit,
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control:disabled,
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control[readonly] {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 700;
+  color: #ffc52e;
+  padding: 18px 30px;
+  background: #103b71;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.2s;
+  padding-left: 60px;
+  position: relative;
+  height: auto;
+  background: url("../../img/icon-download.png") no-repeat 19px 8px #103b71;
+  background-size: 28px 33px;
+  max-width: 145px;
+  margin: 0 auto;
+  display: block;
+}
+
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit:hover,
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control:disabled:hover,
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control[readonly]:hover {
+  color: #ffc52e;
+  text-decoration: none;
+  background-color: #164f96;
+}
+
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit:active,
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control:disabled:active,
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control[readonly]:active {
+  color: #ffc52e;
+  text-decoration: none;
+  background-color: #0b2b53;
+}
+
+@media (min-width: 960px) {
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit,
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control:disabled,
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control[readonly] {
+    font-size: 18px;
+    line-height: 1.22;
+    padding: 14px 30px;
+  }
+}
+
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit::before,
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control:disabled::before,
+.block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control[readonly]::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 22px;
+  width: 26px;
+  height: 32px;
+  background: url("../../img/btn_download.svg") no-repeat center center transparent;
+  background-size: contain;
+  z-index: 2;
+}
+
+@media (min-width: 960px) {
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit,
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control:disabled,
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control[readonly] {
+    padding: 22px 40px 18px 85px;
+  }
+
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit::before,
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control:disabled::before,
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control[readonly]::before {
+    top: 14px;
+    left: 40px;
+  }
+}
+
+@media (min-width: 960px) {
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit,
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control:disabled,
+  .block-otsuka-jynarque-hcc-calendar-block #otsuka-jynarque-hcc-calendar-form .form-submit.form-control[readonly] {
+    background-position: 38px 10px;
+    padding: 17px 29px 13px 78px;
+    max-width: none;
+    display: inline-block;
+  }
+}
+
+/*# sourceMappingURL=block.otsuka-jynarque-hcc-calendar-block.css.map */

@@ -1,0 +1,13 @@
+.questionnaire-wrapper form .radio .js-form-type-radio label {
+  padding: 8px 15px;
+}
+
+.questionnaire-wrapper form .radio .js-form-type-radio input {
+  display: block;
+}
+
+.questionnaire-wrapper form .radio .js-form-type-radio input + label {
+  border: 1px solid transparent;
+}
+
+/*# sourceMappingURL=webform.questionnaire.css.map */

@@ -1,0 +1,687 @@
+.article-modal-form {
+  line-height: 1.22;
+  text-align: left;
+  padding: 0 !important;
+}
+
+.article-modal-form.short-article .article--hero-block .field--name-field-hero-media-desktop img {
+  min-height: 342px;
+}
+
+.article-modal-form.short-article .field--name-field-hero-media-mobile img {
+  min-height: 175px;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form.short-article .article--hero-block__content--title {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form.short-article .article--hero-block__content--title {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 768px) {
+  .article-modal-form.short-article .article--hero-block__content--name {
+    margin-bottom: 10px;
+  }
+}
+
+.article-modal-form.short-article .article--hero-block + .field--name-field-paragraphs p.small-paragraph {
+  font-size: 13px;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form.short-article .article--hero-block + .field--name-field-paragraphs p.small-paragraph {
+    font-size: 16px;
+  }
+}
+
+.article-modal-form.short-article .article--hero-block + .field--name-field-paragraphs figure figcaption {
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form.short-article .article--hero-block + .field--name-field-paragraphs figure figcaption {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .article-modal-form.full-description .article--hero-block__content--title {
+    max-width: none;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form.full-description .article--hero-block__content--title {
+    max-width: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .article-modal-form.full-description .article--hero-block__content--description {
+    max-width: none;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form.full-description .article--hero-block__content--description {
+    max-width: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .article-modal-form.full-description .article--hero-block__content--description {
+    max-width: none;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form.title-width-lg .article--hero-block__content--title {
+    max-width: 850px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .article-modal-form.title-mobile-full-width .article--hero-block__content--title {
+    max-width: none;
+    padding-right: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  .article-modal-form.title-desktop-full-width .article--hero-block__content--title {
+    max-width: none;
+  }
+}
+
+@media screen and (min-width: 1315px) {
+  .article-modal-form.article-hero-lg .article--hero-block__content {
+    max-width: 1245px;
+    left: calc(50% + 32.5px);
+  }
+}
+
+.article-modal-form .article--hero-block {
+  position: relative;
+  margin-bottom: 11px;
+}
+
+.article-modal-form .article--hero-block .field--name-field-hero-media-desktop img {
+  min-height: 309px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.article-modal-form .article--hero-block .field--name-field-hero-media-mobile img {
+  height: 247px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top right;
+}
+
+.article-modal-form .article--hero-block__heading {
+  position: absolute;
+  top: 26px;
+  left: 32px;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block__heading {
+    position: static;
+  }
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block__content {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1180px;
+    width: 100%;
+    padding: 72px 15px 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
+
+.article-modal-form .article--hero-block__content--title {
+  font-size: 24px;
+  font-family: "LatoLatinWeb", sans-serif;
+  font-weight: 900;
+  color: #ffffff;
+  max-width: 200px;
+  line-height: 1.1;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block__content--title {
+    max-width: none;
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block__content--title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .article-modal-form .article--hero-block__content--title {
+    font-size: 54px;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block__content--title .small-title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .article-modal-form .article--hero-block__content--title .small-title {
+    font-size: 54px;
+  }
+}
+
+.article-modal-form .article--hero-block__content--name {
+  margin: 9px 0 0 9px;
+  font-size: 18px;
+  font-family: "FabioHandwriting", sans-serif;
+  color: #fec52e;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block__content--name {
+    margin: 18px 0 2px 63px;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block__content--name {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .article-modal-form .article--hero-block__content--name {
+    font-size: 36px;
+  }
+}
+
+.article-modal-form .article--hero-block__content--description {
+  background: #0b2b53;
+  padding: 9px 15px 5px;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block__content--description {
+    padding: 0;
+    max-width: 410px;
+    background: transparent;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block__content--description {
+    max-width: 535px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .article-modal-form .article--hero-block__content--description {
+    max-width: 710px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .article-modal-form .article--hero-block__content--description .field--item {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.article-modal-form .article--hero-block__content--description p {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block__content--description p {
+    font-weight: 400;
+    color: #01c4bc;
+    font-size: 20px;
+    line-height: normal;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .article-modal-form .article--hero-block__content--description p {
+    font-size: 22px;
+  }
+}
+
+.article-modal-form .article--hero-block__content--description p.text-blue {
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block__content--description p.text-blue {
+    color: #103a71;
+  }
+}
+
+.article-modal-form .article--hero-block__content--description p.footnote {
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+@media (max-width: 767.98px) {
+  .article-modal-form .article--hero-block__content--description p.footnote {
+    margin-top: -32px;
+    padding-bottom: 14px;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs {
+  padding: 0 15px 54px;
+  max-width: 1180px;
+  margin: 0 auto 11px;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs {
+    padding-top: 9px;
+    padding-bottom: 58px;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs {
+    padding-top: 48px;
+    padding-bottom: 78px;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs .paragraph--type--from-library .field--name-paragraphs .field--item {
+  display: block;
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs h2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 14px 0 18px;
+  font-size: 20px;
+  color: #103a71;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs h2 {
+    margin: 14px 0 38px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs h2 span {
+    flex-shrink: 0;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs h2:before, .article-modal-form .article--hero-block + .field--name-field-paragraphs h2:after {
+  content: '';
+  display: block;
+  height: 5px;
+  width: calc(100% - 260px);
+  margin-right: 6px;
+  background: #fec52e;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs h2:before, .article-modal-form .article--hero-block + .field--name-field-paragraphs h2:after {
+    width: calc(100% - 285px);
+    height: 6px;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs h2:before, .article-modal-form .article--hero-block + .field--name-field-paragraphs h2:after {
+    width: 100%;
+    margin-right: 20px;
+    flex-shrink: 1;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs h2:after {
+  margin: 0 0 0 6px;
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs h2:after {
+    margin-left: 20px;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs h5 {
+  font-size: 16px;
+  color: #103b71;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs h5 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs h5 {
+    font-size: 20px;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs p {
+    font-size: 20px;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs p.small-paragraph {
+  font-size: 13px;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs p.small-paragraph {
+    font-size: 16px;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs strong {
+  font-family: "LatoLatinWebMedium", sans-serif;
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs .text-teal {
+  color: #01c4bc;
+  font-weight: 700;
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs .footnote {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .footnote {
+    font-size: 18px;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs .mobile-full-width,
+.article-modal-form .article--hero-block + .field--name-field-paragraphs .mobile-full-width.float-left,
+.article-modal-form .article--hero-block + .field--name-field-paragraphs .mobile-full-width.float-right {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 767.98px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .mobile-full-width,
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .mobile-full-width.float-left,
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .mobile-full-width.float-right {
+    margin: 0 -15px 15px;
+  }
+
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .mobile-full-width img,
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .mobile-full-width.float-left img,
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .mobile-full-width.float-right img {
+    width: 100% !important;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs div img {
+  max-width: 100%;
+  height: auto;
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs .align-right,
+.article-modal-form .article--hero-block + .field--name-field-paragraphs .align-left {
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .align-right,
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .align-left {
+    width: 100%;
+    max-width: 50%;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .align-right,
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .align-left {
+    width: auto;
+    max-width: none;
+    overflow: visible;
+  }
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .align-right {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .align-right {
+    margin: -22px 0 0 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs .align-left {
+    margin-right: 20px;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs figure {
+  display: table;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs figure {
+    margin-bottom: 0;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs figure img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs figure img {
+    width: auto;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding: 14px 17px;
+  font-size: 16px;
+  background: #103a71;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs figure.wide-story-image img {
+    max-width: 531px;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs figure.narrow-story-image img {
+    max-width: 475px;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs span.wide-story-image {
+  float: left;
+  padding: 0;
+  font-size: 12px;
+  background: #103a71;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  margin: 15px -16px 0;
+  width: calc(100% + 32px);
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs span.wide-story-image {
+    font-size: 16px;
+    width: 50%;
+    max-width: 561px;
+    margin: 15px 15px 0 0;
+  }
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs span.wide-story-image {
+    font-size: 16px;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs span.wide-story-image img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs span.wide-story-image img {
+    width: auto;
+  }
+}
+
+.article-modal-form .article--hero-block + .field--name-field-paragraphs span.wide-story-image + em span {
+  font-weight: 400;
+  padding: 14px 17px;
+  display: block;
+  margin: 0 -16px 15px;
+}
+
+@media (min-width: 768px) {
+  .article-modal-form .article--hero-block + .field--name-field-paragraphs span.wide-story-image + em span {
+    margin: 0 15px 10px 0;
+  }
+}
+
+.article-modal-form .modal-dialog {
+  margin: 0 auto;
+  position: relative;
+  max-width: 1440px;
+}
+
+.article-modal-form .modal-content {
+  border-radius: 0;
+  border: 0 none;
+}
+
+.article-modal-form .modal-body {
+  padding: 0;
+  border-bottom: 30px solid #fec52e;
+}
+
+.article-modal-form .yellow--cards {
+  padding: 0 10px;
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .yellow--cards {
+    padding: 0;
+  }
+}
+
+.article-modal-form .text-italic {
+  font-style: italic;
+  color: #000;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-top: 40px;
+}
+
+@media (min-width: 960px) {
+  .article-modal-form .text-italic {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .article-modal-form.name-small-indent .article--hero-block__content--name {
+    margin: 3px 0 17px 63px;
+  }
+}
+
+.modal .close {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  background: url(../../img/close.png) no-repeat center;
+  background-size: contain;
+  border-radius: 50%;
+  opacity: 1;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .modal .close {
+    top: 10px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/*# sourceMappingURL=node.patient-story-article.css.map */
