@@ -3,7 +3,7 @@
 @font-face {
   font-family: 'Code Pro Black';
   src: url("../fonts/code_pro/font.eot");
-  src: url("../fonts/code_pro/font.eot?#iefix") format("embedded-opentype"), url("https://www.jynarque.com/sites/g/files/qhldwo11511/themes/site/themes/custom/jynarque_hcc_2021/assets/build/fonts/code_pro/font.woff2") format("woff2"), url("../fonts/code_pro/font.woff") format("woff"), url("../fonts/code_pro/font.ttf") format("truetype");
+  src: url("../fonts/code_pro/font.eot?#iefix") format("embedded-opentype"), url("../fonts/code_pro/font.woff2") format("woff2"), url("../fonts/code_pro/font.woff") format("woff"), url("../fonts/code_pro/font.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
